@@ -10,12 +10,12 @@ const GamesPages = () => {
             
             <div>
                 <p className=" mx-4 my-4">Play multiple draws to stand higher chances of winning</p>
-                <div className="grid grid-cols-5 gap-8 mx-4">
-                    <input className='w-11 h-11 rounded-full p-2 border-2 text-center text-[1rem] font-bold' type="text" readOnly/>
-                    <input className='w-11 h-11 rounded-full p-2 border-2 text-center text-[1rem] font-bold' type="text" readOnly/>
-                    <input className='w-11 h-11 rounded-full p-2 border-2 text-center text-[1rem] font-bold' type="text" readOnly/>
-                    <input className='w-11 h-11 rounded-full p-2 border-2 text-center text-[1rem] font-bold' type="text" readOnly/>
-                    <input className='w-11 h-11 rounded-full p-2 border-2 text-center text-[1rem] font-bold' type="text" readOnly/>
+                <div className="grid grid-cols-5 gap-4 ml-4 mr-4">
+                    <input className='w-[3.75rem] h-[3.75rem] rounded-full p-2 border-2 text-center text-[1rem] font-bold' type="text" readOnly/>
+                    <input className='w-[3.75rem] h-[3.75rem] rounded-full p-2 border-2 text-center text-[1rem] font-bold' type="text" readOnly/>
+                    <input className='w-[3.75rem] h-[3.75rem] rounded-full p-2 border-2 text-center text-[1rem] font-bold' type="text" readOnly/>
+                    <input className='w-[3.75rem] h-[3.75rem] rounded-full p-2 border-2 text-center text-[1rem] font-bold' type="text" readOnly/>
+                    <input className='w-[3.75rem] h-[3.75rem] rounded-full p-2 border-2 text-center text-[1rem] font-bold' type="text" readOnly/>
                 </div>
             </div>
             <div className='flex space-x-4 flex-row my-4 mx-2'>
