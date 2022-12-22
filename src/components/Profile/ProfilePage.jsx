@@ -38,16 +38,16 @@ const Profile = () => {
                         <p className="text-[.8rem]">₦<span> 2,730.00</span></p>
                     </div>
                     <div className="mt-7 flex justify-between">
-                        <Link to="/deposit"><button className="bg-lemon p-2 text-[.8rem] px-12 text-[#28743A] rounded-full">Deposit</button></Link>
-                        <Link to="/withdraw"><button className="p-2 text-[.8rem] px-12 rounded-full border">Withdraw</button></Link>
+                        <Link className="w-[48%]" to="/deposit"><button className="bg-lemon p-2 text-[.8rem] w-[100%] px-12 text-[#28743A] rounded-full">Deposit</button></Link>
+                        <Link className="w-[48%]" to="/withdraw"><button className="p-2 text-[.8rem] w-[100%] px-12 rounded-full border">Withdraw</button></Link>
                     </div>
                 </div>
 
                 <div>
-                    <Links link="" details="Gaming History"/>
+                    <Links link="/history" details="Gaming History"/>
                     <Links link="" details="My Account Info"/>
                     <Links link="" details="Transaction History"/>
-                    <Links link="../ChangePassword" details="Reset Password"/>
+                    <Links link="/ChangePassword" details="Reset Password"/>
                 </div>
             </div>
         </div>

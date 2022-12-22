@@ -9,18 +9,17 @@ import {
   MenuHandler,
   MenuList,
   MenuItem,
-  Button,
 } from "@material-tailwind/react";
 
 const Navbar = () => {
-    const [menuState , setMenuState] = useState(false)
+
     return (
         <div className="sticky top-0 z-10">
             <Fragment>
             <div className="flex items-center py-3 px-5 justify-between bg-[#FFFFFF]">
                 <Menu>
                     <MenuHandler>
-                        <div className="flex items-center gap-1" onClick={() => setMenuState(true)}>
+                        <div className="flex items-center gap-1">
                             <p className="text-[#28743A]">Menu</p>
                             <img src={menuIcon} alt="Menu Icon" className="w-5"/>
                         </div>

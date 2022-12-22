@@ -1,5 +1,6 @@
 import Footer from "../Footer";
 import Testimonials from "../Testimonials";
+import FAQs from "../FAQs";
 
 const GamesPages = () => {
     return ( 
@@ -60,6 +61,7 @@ const GamesPages = () => {
             <div className="flex mx-6 my-4"><button className='w-full py-2 border-2 text-[#28743A] font-normal rounded-full'>Play</button> </div>
         </div>
         <Testimonials/>
+        <FAQs/>
         <Footer/>
     </div>
      );
