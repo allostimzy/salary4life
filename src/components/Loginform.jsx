@@ -15,7 +15,7 @@ const Loginform = () => {
                 <input className='p-2 rounded-lg border mt-2 focus:border-green-500 focus:outline-none' type="password" placeholder="Kindly enter your password" />
             </div>
             <div className='flex justify-between text-[#797979] text-[.8rem] py-2'>
-                <p className='flex items-center'>*Minimum 4 Character</p>  
+                <p className='flex items-center'>*Minimum 4 Characters</p>  
             </div>
             <button className='w-full my-5 py-2 bg-[#BBFF4B] shadow shadow-black-500/50 hover:shadow-teal-500/40 text-[#28743A] text-[1rem] font-normal rounded-full'>Log In</button>
             <div className="flex justify-center "><p className='text-black-400 underline underline-offset-1'><Link to="/ForgetPassword">Forgot Password</Link></p></div>
