@@ -1,6 +1,7 @@
 import lightning from "../assests/lightning.svg"
 import daily from "../assests/daily.svg"
 import weekly from "../assests/weekly.svg"
+import { Link } from "react-router-dom"
 
 const GameType = ({image , type}) => {
     return(
@@ -23,7 +24,7 @@ const Game = ({amount , type}) => {
             <div className="bg-[#C7DECC] rounded-xl py-3 text-[#28743A] text-center">
                 <p className="text-[.7rem]">{type}</p>
                 <p className="text-[.7rem]"><span className="font-bold text-[1rem]">{amount}</span><br/> salary for 30 years </p>
-                <button className="bg-[#28743A] text-[#BBFF4B] rounded-xl text-[.7rem] p-1 px-3 m-2">Play Now</button>
+                <button className="bg-[#28743A] text-[#BBFF4B] rounded-xl text-[.7rem] p-1 px-3 m-2"><Link to="./GamesPages">Play Now</Link></button>
             </div>
         </div>
     )
