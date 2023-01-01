@@ -5,7 +5,7 @@ const Loginform = () => {
         <div className='flex flex-col justify-center p-5'>
         <form className='max-w-[400px] w-full mx-auto rounded-lg bg-gray- pb-10  px-2'>
             <h2 className='text-[#28743A] text-[1.6713rem] my-2 text-left font-medium'>Log In</h2>
-            <p className="py-2">Welcome back. Please enter your mobile number and salary4life password to login</p>
+            <p className="py-2">Welcome back. Please enter your mobile number and salary4life password to login.</p>
             <div className='flex flex-col py-4'>
                 <label>Mobile Number</label>
                 <input className='rounded-lg mt-2 p-2 border focus:border-green-500 focus:outline-none' type="text" placeholder="+234"/>
